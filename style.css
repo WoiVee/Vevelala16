@@ -1,5 +1,5 @@
 body {
-  mbargin: 0;
+  margin: 0;
   font-family: sans-serif;
   
 }
@@ -37,7 +37,13 @@ body {
 
 .header-utama, .catalog-section {
   margin-left: 220px;
-  padding: 20px;
+  padding:  20px;
+  padding-top:100px;
+  padding-bottom: 300px;
+}
+.catalog-section{
+  padding-top: 300px ; 
+  padding-bottom:250px;
 }
 
 .catalog-container {
@@ -50,7 +56,6 @@ body {
   width: 200px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 10px;
   background: #957a62;
 }
 
@@ -65,13 +70,12 @@ body {
   font-weight: bold;
 }
 
-.h2 {
-  color: darkgreen ;
-}
+
 footer {
   margin-left: 220px;
   padding: 20px;
   background-color: #957a62;
 }
+
 
 
